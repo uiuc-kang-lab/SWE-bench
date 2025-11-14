@@ -489,6 +489,7 @@ def main(
     instance_image_tag: str = "latest",
     env_image_tag: str = "latest",
     report_dir: str = ".",
+    test_patches: str = "",
 ):
     """
     Run evaluation harness for the given dataset and predictions.
@@ -519,6 +520,21 @@ def main(
         dataset_name, split, instance_ids, predictions, run_id, rewrite_reports
     )
     full_dataset = load_swebench_dataset(dataset_name, split, instance_ids)
+
+
+    # change test_path
+    selected_dataset = []
+    if test_patches != "":
+        with open(test_patches, 'r') as f:
+            for line in f:
+                test_patch = json.loads(line)
+                instance_id = test_patch['instance_id']
+                generated_test_patch = test_patch['model_patch']
+                instance = [item for item in full_dataset if item['instance_id'] == instance_id][0]
+                instance['test_patch'] = generated_test_patch
+                print(f"Loaded test patch for instance {instance_id}")
+                selected_dataset.append(instance)
+        dataset = selected_dataset
 
     if modal:
         # run instances on Modal
@@ -672,6 +688,9 @@ if __name__ == "__main__":
 
     # Modal execution args
     parser.add_argument("--modal", type=str2bool, default=False, help="Run on Modal")
+    
+    # test patches
+    parser.add_argument("--test_patches", type=str, help="Path to test patches file", default="")
 
     args = parser.parse_args()
     main(**vars(args))

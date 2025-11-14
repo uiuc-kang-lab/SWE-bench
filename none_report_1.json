@@ -1,0 +1,302 @@
+{
+    "psf__requests-1921": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 8,
+        "details": {
+            "resolved": [],
+            "unresolved": [],
+            "missing": [
+                "test_session_header_set_to_none_removes_header",
+                "test_session_default_header_set_to_none_removes_header",
+                "test_session_header_none_case_insensitive",
+                "test_session_and_request_header_none_interaction",
+                "test_session_header_none_does_not_send_none_string",
+                "test_multiple_session_headers_set_to_none",
+                "test_merge_setting_removes_none_values",
+                "test_merge_setting_request_none_overrides_session"
+            ]
+        }
+    },
+    "astropy__astropy-7336": {
+        "n_resolved_tests": 1,
+        "n_unresolved_tests": 5,
+        "n_missing_tests": 74,
+        "details": {
+            "resolved": [
+                "test_constructor_without_return_annotation"
+            ],
+            "unresolved": [
+                "test_constructor_with_none_return_annotation",
+                "test_method_with_none_return_annotation",
+                "test_function_with_none_return_annotation",
+                "test_constructor_with_multiple_params_and_none_return",
+                "test_function_returning_none_explicitly"
+            ],
+            "missing": [
+                "if wrapped_signature.return_annotation is not inspect.Signature.empty:",
+                "return return_.to(wrapped_signature.return_annotation)",
+                "### astropy/units/tests/test_quantity_input.py",
+                "<<<<<<< SEARCH",
+                "def test_quantity_input():",
+                "=======",
+                "def test_constructor_with_none_return_type_hint():",
+                "\"\"\"",
+                "Test that quantity_input decorator works with constructors that have",
+                "a return type hint of -> None. This is a regression test for issue",
+                "where 'NoneType' object has no attribute 'to'.",
+                "\"\"\"",
+                "import astropy.units as u",
+                "class TestClass:",
+                "@u.quantity_input",
+                "def __init__(self, voltage: u.V) -> None:",
+                "self.voltage = voltage",
+                "# This should not raise AttributeError: 'NoneType' object has no attribute 'to'",
+                "obj = TestClass(1.0 * u.V)",
+                "assert obj.voltage.value == 1.0",
+                "assert obj.voltage.unit == u.V",
+                "def test_method_with_none_return_type_hint():",
+                "\"\"\"",
+                "Test that quantity_input decorator works with methods that have",
+                "a return type hint of -> None.",
+                "\"\"\"",
+                "import astropy.units as u",
+                "class TestClass:",
+                "def __init__(self):",
+                "self.voltage = None",
+                "@u.quantity_input",
+                "def set_voltage(self, voltage: u.V) -> None:",
+                "self.voltage = voltage",
+                "return None",
+                "obj = TestClass()",
+                "result = obj.set_voltage(5.0 * u.V)",
+                "assert result is None",
+                "assert obj.voltage.value == 5.0",
+                "assert obj.voltage.unit == u.V",
+                "def test_function_with_none_return_type_hint():",
+                "\"\"\"",
+                "Test that quantity_input decorator works with functions that have",
+                "a return type hint of -> None and actually return None.",
+                "\"\"\"",
+                "import astropy.units as u",
+                "@u.quantity_input",
+                "def process_voltage(voltage: u.V) -> None:",
+                "# Function processes but returns nothing",
+                "return None",
+                "result = process_voltage(10.0 * u.V)",
+                "assert result is None",
+                "def test_function_implicit_none_return_with_type_hint():",
+                "\"\"\"",
+                "Test that quantity_input decorator works with functions that have",
+                "a return type hint of -> None and implicitly return None (no return statement).",
+                "\"\"\"",
+                "import astropy.units as u",
+                "@u.quantity_input",
+                "def process_voltage(voltage: u.V) -> None:",
+                "# Function processes but has no return statement",
+                "_ = voltage.to(u.mV)",
+                "result = process_voltage(10.0 * u.V)",
+                "assert result is None",
+                "def test_quantity_input():",
+                "=======",
+                "test_constructor_with_none_return_type_hint",
+                "test_method_with_none_return_type_hint",
+                "test_function_with_none_return_type_hint",
+                "test_function_implicit_none_return_with_type_hint",
+                "test_constructor_with_none_return_type_hint",
+                "test_method_with_none_return_type_hint",
+                "test_function_with_none_return_type_hint",
+                "test_function_implicit_none_return_with_type_hint",
+                "test_constructor_multiple_params_none_return"
+            ]
+        }
+    },
+    "sphinx-doc__sphinx-8265": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 3,
+        "n_missing_tests": 3,
+        "details": {
+            "resolved": [],
+            "unresolved": [
+                "test_signature_from_str_tuple_default",
+                "test_signature_from_str_complex_defaults_with_tuples",
+                "test_signature_from_str_tuple_defaults_with_annotations"
+            ],
+            "missing": [
+                "test_format_signature",
+                "test_format_signature",
+                "test_parse_arglist_tuple_defaults"
+            ]
+        }
+    },
+    "pydata__xarray-6938": {
+        "n_resolved_tests": 1,
+        "n_unresolved_tests": 2,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_swap_dims_does_not_modify_original_simple"
+            ],
+            "unresolved": [
+                "test_swap_dims_does_not_modify_original",
+                "test_swap_dims_does_not_modify_original"
+            ],
+            "missing": []
+        }
+    },
+    "scikit-learn__scikit-learn-9288": {
+        "n_resolved_tests": 3,
+        "n_unresolved_tests": 2,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_k_means_n_jobs_consistency_parallel",
+                "test_k_means_n_jobs_consistency_elkan",
+                "test_k_means_n_jobs_consistency_full"
+            ],
+            "unresolved": [
+                "test_k_means_n_jobs_consistency",
+                "test_k_means_n_jobs_consistency_with_init"
+            ],
+            "missing": []
+        }
+    },
+    "pylint-dev__pylint-6528": {
+        "n_resolved_tests": 2,
+        "n_unresolved_tests": 2,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_expand_modules_with_ignore_list",
+                "test_expand_modules_with_ignore_patterns"
+            ],
+            "unresolved": [
+                "test_expand_modules_with_ignore_paths_re",
+                "test_expand_modules_with_multiple_ignore_methods"
+            ],
+            "missing": []
+        }
+    },
+    "mwaskom__seaborn-3187": {
+        "n_resolved_tests": 2,
+        "n_unresolved_tests": 5,
+        "n_missing_tests": 6,
+        "details": {
+            "resolved": [
+                "test_legend_with_scalar_formatter_offset",
+                "test_legend_formatter_consistency"
+            ],
+            "unresolved": [
+                "test_legend_with_large_values_offset",
+                "test_legend_with_offset_formatter_useoffset_true",
+                "test_legend_values_match_data_range",
+                "test_legend_large_range_body_mass_scenario",
+                "test_legend_offset_in_title_or_labels"
+            ],
+            "missing": [
+                "if prop.legend:",
+                "axis.set_view_interval(vmin, vmax)",
+                "locs = axis.major.locator()",
+                "locs = locs[(vmin <= locs) & (locs <= vmax)]",
+                "labels = axis.major.formatter.format_ticks(locs)",
+                "new._legend = list(locs), list(labels)"
+            ]
+        }
+    },
+    "matplotlib__matplotlib-23299": {
+        "n_resolved_tests": 7,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_get_backend_preserves_figures_created_in_rc_context",
+                "test_get_backend_preserves_multiple_figures_with_rc_context",
+                "test_get_backend_with_figure_before_rc_context",
+                "test_get_backend_with_ion",
+                "test_get_backend_idempotent",
+                "test_get_backend_nested_rc_context",
+                "test_figure_close_after_get_backend_with_rc_context"
+            ],
+            "unresolved": [],
+            "missing": []
+        }
+    },
+    "django__django-16145": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 6,
+        "n_missing_tests": 3,
+        "details": {
+            "resolved": [],
+            "unresolved": [
+                "test_runserver_addr_zero_shorthand",
+                "test_runserver_addr_zero_explicit",
+                "test_runserver_addr_zero_port_only",
+                "test_runserver_addr_zero_shorthand_ipv6",
+                "test_runserver_output_format_standard_addr",
+                "test_runserver_output_format_localhost"
+            ],
+            "missing": [
+                "test_runserver_zero_addr_clickable_link",
+                "test_runserver_default_addr_not_affected",
+                "test_runserver_various_zero_formats"
+            ]
+        }
+    },
+    "pytest-dev__pytest-7490": {
+        "n_resolved_tests": 2,
+        "n_unresolved_tests": 9,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_dynamic_xfail_in_setup_and_test",
+                "test_dynamic_xfail_with_runxfail_option"
+            ],
+            "unresolved": [
+                "test_dynamic_xfail_in_test_body",
+                "test_dynamic_xfail_in_test_body_with_reason",
+                "test_dynamic_xfail_in_test_body_strict",
+                "test_dynamic_xfail_in_test_body_run_false",
+                "test_dynamic_xfail_in_test_body_with_raises",
+                "test_dynamic_xfail_in_test_body_passing",
+                "test_dynamic_xfail_using_add_marker",
+                "test_dynamic_xfail_multiple_markers",
+                "test_dynamic_xfail_condition_true"
+            ],
+            "missing": []
+        }
+    },
+    "sympy__sympy-23950": {
+        "n_resolved_tests": 1,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 3,
+        "details": {
+            "resolved": [
+                "test_as_set_with_reals"
+            ],
+            "unresolved": [],
+            "missing": [
+                "test_piecewise_contains_issue",
+                "test_piecewise_contains_as_set",
+                "test_contains_is_not_set"
+            ]
+        }
+    },
+    "pallets__flask-5014": {
+        "n_resolved_tests": 3,
+        "n_unresolved_tests": 3,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_none_name_raises_error",
+                "test_valid_blueprint_names",
+                "test_blueprint_name_with_dot_raises_error"
+            ],
+            "unresolved": [
+                "test_empty_name_raises_error",
+                "test_empty_name_with_whitespace_raises_error",
+                "test_empty_name_registration_prevented"
+            ],
+            "missing": []
+        }
+    }
+}

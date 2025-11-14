@@ -50,6 +50,17 @@ def get_predictions_from_file(predictions_path: str, dataset_name: str, split: s
             }
             for datum in dataset
         ]
+    if predictions_path == "none":
+        print("Using None predictions")
+        dataset = load_swebench_dataset(dataset_name, split)
+        return [
+            {
+                KEY_INSTANCE_ID: datum[KEY_INSTANCE_ID],
+                KEY_PREDICTION: "",
+                KEY_MODEL: "none",
+            }
+            for datum in dataset
+        ]
     if predictions_path.endswith(".json"):
         with open(predictions_path, "r") as f:
             predictions = json.load(f)
