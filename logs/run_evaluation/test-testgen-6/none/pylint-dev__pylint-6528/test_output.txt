@@ -1,0 +1,568 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+nothing to commit, working tree clean
++ git show
+commit 9672c236bad63e7cc6451f06aa89ef4642eea1fe
+Author: SWE-bench <setup@swebench.config>
+Date:   Wed Sep 10 15:09:25 2025 +0000
+
+    SWE-bench
++ git -c core.fileMode=false diff 273a8b25620467c1e5686aa8d2a1dbb8c02c78d0
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: dill>=0.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (0.3.9)
+Requirement already satisfied: platformdirs>=2.2.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (4.3.6)
+Requirement already satisfied: astroid<=2.12.0-dev0,>=2.11.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (2.11.6)
+Requirement already satisfied: isort<6,>=4.2.5 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (5.10.1)
+Requirement already satisfied: mccabe<0.8,>=0.6 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (0.6.1)
+Requirement already satisfied: tomlkit>=0.10.1 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (0.13.2)
+Requirement already satisfied: typing-extensions>=3.10.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (4.12.2)
+Requirement already satisfied: tomli>=1.1.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from pylint==2.14.0.dev0) (2.0.2)
+Requirement already satisfied: lazy-object-proxy>=1.4.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from astroid<=2.12.0-dev0,>=2.11.5->pylint==2.14.0.dev0) (1.10.0)
+Requirement already satisfied: wrapt<2,>=1.11 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from astroid<=2.12.0-dev0,>=2.11.5->pylint==2.14.0.dev0) (1.16.0)
+Requirement already satisfied: setuptools>=20.0 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from astroid<=2.12.0-dev0,>=2.11.5->pylint==2.14.0.dev0) (75.1.0)
+Installing collected packages: pylint
+  Attempting uninstall: pylint
+    Found existing installation: pylint 2.14.0.dev0
+    Uninstalling pylint-2.14.0.dev0:
+      Successfully uninstalled pylint-2.14.0.dev0
+  DEPRECATION: Legacy editable install of pylint==2.14.0.dev0 from file:///testbed (setup.py develop) is deprecated. pip 25.0 will enforce this behaviour change. A possible replacement is to add a pyproject.toml or enable --use-pep517, and use setuptools >= 64. If the resulting installation is not behaving as expected, try using --config-settings editable_mode=compat. Please consult the setuptools documentation for more information. Discussion can be found at https://github.com/pypa/pip/issues/11457
+  Running setup.py develop for pylint
+Successfully installed pylint
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git checkout 273a8b25620467c1e5686aa8d2a1dbb8c02c78d0 tests/lint/unittest_expand_modules.py
+Updated 0 paths from 8fa1f474
++ git apply -v -
+<stdin>:14: trailing whitespace.
+        
+<stdin>:19: trailing whitespace.
+            
+<stdin>:22: trailing whitespace.
+            
+<stdin>:27: trailing whitespace.
+            
+<stdin>:30: trailing whitespace.
+            
+Checking patch tests/lint/unittest_expand_modules.py...
+Applied patch tests/lint/unittest_expand_modules.py cleanly.
+warning: squelched 27 whitespace errors
+warning: 32 lines add whitespace errors.
++ : '>>>>> Start Test Output'
++ pytest -rA tests/lint/unittest_expand_modules.py
+============================= test session starts ==============================
+platform linux -- Python 3.9.20, pytest-7.4.4, pluggy-1.5.0
+benchmark: 3.4.1 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: /testbed
+configfile: setup.cfg
+plugins: forked-1.6.0, benchmark-3.4.1, xdist-2.5.0, profiling-1.7.0, timeout-2.3.1, cov-3.0.0
+collected 11 items
+
+tests/lint/unittest_expand_modules.py ......FFFFF                        [100%]
+
+=================================== FAILURES ===================================
+____________ TestExpandModules.test_expand_modules_with_ignore_list ____________
+
+self = <lint.unittest_expand_modules.TestExpandModules object at 0x7e9a616157f0>
+
+    def test_expand_modules_with_ignore_list(self):
+        """Test that expand_modules respects ignore_list (--ignore option)."""
+        import tempfile
+        import os
+        from pylint.lint.expand_modules import expand_modules
+    
+        # Create a temporary directory structure
+        with tempfile.TemporaryDirectory() as tmpdir:
+            # Create .a directory with foo.py
+            ignore_dir = os.path.join(tmpdir, ".a")
+            os.makedirs(ignore_dir)
+            foo_path = os.path.join(ignore_dir, "foo.py")
+            with open(foo_path, "w") as f:
+                f.write("# import re\n")
+    
+            # Create bar.py in root
+            bar_path = os.path.join(tmpdir, "bar.py")
+            with open(bar_path, "w") as f:
+                f.write("# import re\n")
+    
+            # Test with ignore_list containing ".a"
+            ignore_list = [".a"]
+            ignore_list_re = []
+            ignore_list_paths_re = []
+    
+            modules, errors = expand_modules(
+                [tmpdir],
+                ignore_list,
+                ignore_list_re,
+                ignore_list_paths_re,
+            )
+    
+            # Should only find bar.py, not foo.py in .a directory
+            module_paths = [m["path"] for m in modules]
+>           assert bar_path in module_paths
+E           AssertionError: assert '/tmp/tmpfjlolqqc/bar.py' in ['/tmp/tmpfjlolqqc/__init__.py']
+
+tests/lint/unittest_expand_modules.py:218: AssertionError
+__________ TestExpandModules.test_expand_modules_with_ignore_patterns __________
+
+self = <lint.unittest_expand_modules.TestExpandModules object at 0x7e9a61615910>
+
+    def test_expand_modules_with_ignore_patterns(self):
+        """Test that expand_modules respects ignore_list_re (--ignore-patterns option)."""
+        import tempfile
+        import os
+        import re
+        from pylint.lint.expand_modules import expand_modules
+    
+        # Create a temporary directory structure
+        with tempfile.TemporaryDirectory() as tmpdir:
+            # Create .a directory with foo.py
+            ignore_dir = os.path.join(tmpdir, ".a")
+            os.makedirs(ignore_dir)
+            foo_path = os.path.join(ignore_dir, "foo.py")
+            with open(foo_path, "w") as f:
+                f.write("# import re\n")
+    
+            # Create bar.py in root
+            bar_path = os.path.join(tmpdir, "bar.py")
+            with open(bar_path, "w") as f:
+                f.write("# import re\n")
+    
+            # Test with ignore_list_re containing pattern for directories starting with "."
+            ignore_list = []
+            ignore_list_re = [re.compile(r"^\..*")]
+            ignore_list_paths_re = []
+    
+            modules, errors = expand_modules(
+                [tmpdir],
+                ignore_list,
+                ignore_list_re,
+                ignore_list_paths_re,
+            )
+    
+            # Should only find bar.py, not foo.py in .a directory
+            module_paths = [m["path"] for m in modules]
+>           assert bar_path in module_paths
+E           AssertionError: assert '/tmp/tmptfyfq1iu/bar.py' in ['/tmp/tmptfyfq1iu/__init__.py']
+
+tests/lint/unittest_expand_modules.py:257: AssertionError
+___________ TestExpandModules.test_expand_modules_with_ignore_paths ____________
+
+self = <lint.unittest_expand_modules.TestExpandModules object at 0x7e9a61615e50>
+
+    def test_expand_modules_with_ignore_paths(self):
+        """Test that expand_modules respects ignore_list_paths_re (--ignore-paths option)."""
+        import tempfile
+        import os
+        import re
+        from pylint.lint.expand_modules import expand_modules
+    
+        # Create a temporary directory structure
+        with tempfile.TemporaryDirectory() as tmpdir:
+            # Create .a directory with foo.py
+            ignore_dir = os.path.join(tmpdir, ".a")
+            os.makedirs(ignore_dir)
+            foo_path = os.path.join(ignore_dir, "foo.py")
+            with open(foo_path, "w") as f:
+                f.write("# import re\n")
+    
+            # Create bar.py in root
+            bar_path = os.path.join(tmpdir, "bar.py")
+            with open(bar_path, "w") as f:
+                f.write("# import re\n")
+    
+            # Test with ignore_list_paths_re containing pattern for .a directory
+            ignore_list = []
+            ignore_list_re = []
+            ignore_list_paths_re = [re.compile(r".*\.a.*")]
+    
+            modules, errors = expand_modules(
+                [tmpdir],
+                ignore_list,
+                ignore_list_re,
+                ignore_list_paths_re,
+            )
+    
+            # Should only find bar.py, not foo.py in .a directory
+            module_paths = [m["path"] for m in modules]
+>           assert bar_path in module_paths
+E           AssertionError: assert '/tmp/tmp1ck7da_o/bar.py' in ['/tmp/tmp1ck7da_o/__init__.py']
+
+tests/lint/unittest_expand_modules.py:296: AssertionError
+_________ TestExpandModules.test_expand_modules_recursive_with_ignore __________
+
+self = <lint.unittest_expand_modules.TestExpandModules object at 0x7e9a616159d0>
+
+    def test_expand_modules_recursive_with_ignore(self):
+        """Test that recursive discovery respects ignore settings."""
+        import tempfile
+        import os
+        import re
+        from pylint.lint.expand_modules import expand_modules
+    
+        # Create a temporary directory structure with nested directories
+        with tempfile.TemporaryDirectory() as tmpdir:
+            # Create .hidden directory with nested structure
+            hidden_dir = os.path.join(tmpdir, ".hidden")
+            os.makedirs(hidden_dir)
+            hidden_nested = os.path.join(hidden_dir, "nested")
+            os.makedirs(hidden_nested)
+    
+            hidden_file1 = os.path.join(hidden_dir, "file1.py")
+            with open(hidden_file1, "w") as f:
+                f.write("# test\n")
+    
+            hidden_file2 = os.path.join(hidden_nested, "file2.py")
+            with open(hidden_file2, "w") as f:
+                f.write("# test\n")
+    
+            # Create visible directory
+            visible_dir = os.path.join(tmpdir, "visible")
+            os.makedirs(visible_dir)
+            visible_file = os.path.join(visible_dir, "file3.py")
+            with open(visible_file, "w") as f:
+                f.write("# test\n")
+    
+            # Test with pattern to ignore directories starting with "."
+            ignore_list = []
+            ignore_list_re = [re.compile(r"^\..*")]
+            ignore_list_paths_re = []
+    
+            modules, errors = expand_modules(
+                [tmpdir],
+                ignore_list,
+                ignore_list_re,
+                ignore_list_paths_re,
+            )
+    
+            # Should only find visible_file, not any files in .hidden
+            module_paths = [m["path"] for m in modules]
+>           assert visible_file in module_paths
+E           AssertionError: assert '/tmp/tmptobhmmxp/visible/file3.py' in ['/tmp/tmptobhmmxp/__init__.py']
+
+tests/lint/unittest_expand_modules.py:344: AssertionError
+________ TestExpandModules.test_expand_modules_default_ignore_patterns _________
+
+self = <lint.unittest_expand_modules.TestExpandModules object at 0x7e9a616150a0>
+
+    def test_expand_modules_default_ignore_patterns(self):
+        """Test that default ignore patterns (^\.#) work correctly."""
+        import tempfile
+        import os
+        import re
+        from pylint.lint.expand_modules import expand_modules
+    
+        # Create a temporary directory structure
+        with tempfile.TemporaryDirectory() as tmpdir:
+            # Create a file matching emacs lock pattern
+            lock_file = os.path.join(tmpdir, ".#lockfile.py")
+            with open(lock_file, "w") as f:
+                f.write("# test\n")
+    
+            # Create a normal file
+            normal_file = os.path.join(tmpdir, "normal.py")
+            with open(normal_file, "w") as f:
+                f.write("# test\n")
+    
+            # Test with default ignore pattern
+            ignore_list = []
+            ignore_list_re = [re.compile(r"^\.#")]
+            ignore_list_paths_re = []
+    
+            modules, errors = expand_modules(
+                [tmpdir],
+                ignore_list,
+                ignore_list_re,
+                ignore_list_paths_re,
+            )
+    
+            # Should only find normal_file, not lock_file
+            module_paths = [m["path"] for m in modules]
+>           assert normal_file in module_paths
+E           AssertionError: assert '/tmp/tmpioz7r99c/normal.py' in ['/tmp/tmpioz7r99c/__init__.py']
+
+tests/lint/unittest_expand_modules.py:382: AssertionError
+=============================== warnings summary ===============================
+../opt/miniconda3/envs/testbed/lib/python3.9/site-packages/astroid/interpreter/_import/util.py:6
+  /opt/miniconda3/envs/testbed/lib/python3.9/site-packages/astroid/interpreter/_import/util.py:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+    import pkg_resources
+
+tests/lint/unittest_expand_modules.py:350
+  /testbed/tests/lint/unittest_expand_modules.py:350: DeprecationWarning: invalid escape sequence \.
+    """Test that default ignore patterns (^\.#) work correctly."""
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED tests/lint/unittest_expand_modules.py::test__is_in_ignore_list_re_match
+PASSED tests/lint/unittest_expand_modules.py::TestExpandModules::test_recursive_discovers_files
+PASSED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules[files_or_modules0-expected0]
+PASSED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules[files_or_modules1-expected1]
+PASSED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules_with_ignore[files_or_modules0-expected0]
+PASSED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules_with_ignore[files_or_modules1-expected1]
+FAILED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules_with_ignore_list
+FAILED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules_with_ignore_patterns
+FAILED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules_with_ignore_paths
+FAILED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules_recursive_with_ignore
+FAILED tests/lint/unittest_expand_modules.py::TestExpandModules::test_expand_modules_default_ignore_patterns
+=================== 5 failed, 6 passed, 2 warnings in 0.12s ====================
++ : '>>>>> End Test Output'
++ git checkout 273a8b25620467c1e5686aa8d2a1dbb8c02c78d0 tests/lint/unittest_expand_modules.py
+Updated 1 path from 8fa1f474
