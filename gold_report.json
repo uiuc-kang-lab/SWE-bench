@@ -1,0 +1,193 @@
+{
+    "psf__requests-1921": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 5,
+        "details": {
+            "resolved": [],
+            "unresolved": [],
+            "missing": [
+                "test_session_header_set_to_none_removes_header",
+                "test_session_default_header_set_to_none_removes_header",
+                "test_session_header_none_not_sent_as_string",
+                "test_session_multiple_headers_set_to_none",
+                "test_session_header_none_case_insensitive"
+            ]
+        }
+    },
+    "astropy__astropy-7336": {
+        "n_resolved_tests": 5,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_constructor_with_none_return_annotation",
+                "test_method_with_none_return_annotation",
+                "test_function_with_none_return_annotation",
+                "test_constructor_without_return_annotation",
+                "test_method_with_quantity_return_annotation"
+            ],
+            "unresolved": [],
+            "missing": []
+        }
+    },
+    "sphinx-doc__sphinx-8265": {
+        "n_resolved_tests": 2,
+        "n_unresolved_tests": 1,
+        "n_missing_tests": 2,
+        "details": {
+            "resolved": [
+                "test_signature_from_str_tuple_default",
+                "test_signature_from_str_nested_tuple_defaults"
+            ],
+            "unresolved": [
+                "test_signature_from_str_complex_tuple_defaults"
+            ],
+            "missing": [
+                "test_format_signature_with_tuple_defaults",
+                "test_parse_arglist_tuple_defaults"
+            ]
+        }
+    },
+    "pydata__xarray-6938": {
+        "n_resolved_tests": 5,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_swap_dims_does_not_modify_original",
+                "test_swap_dims_does_not_modify_original_simple",
+                "test_swap_dims_does_not_modify_original_multiindex",
+                "test_swap_dims_does_not_modify_original",
+                "test_swap_dims_does_not_modify_original_multiindex"
+            ],
+            "unresolved": [],
+            "missing": []
+        }
+    },
+    "scikit-learn__scikit-learn-9288": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [],
+            "unresolved": [],
+            "missing": []
+        }
+    },
+    "pylint-dev__pylint-6528": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 5,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [],
+            "unresolved": [
+                "test_expand_modules_with_ignore_list",
+                "test_expand_modules_with_ignore_patterns",
+                "test_expand_modules_with_ignore_paths",
+                "test_expand_modules_recursive_with_ignore",
+                "test_expand_modules_default_ignore_patterns"
+            ],
+            "missing": []
+        }
+    },
+    "mwaskom__seaborn-3187": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 5,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [],
+            "unresolved": [
+                "test_label_large_numbers_with_offset",
+                "test_label_large_numbers_legend_values",
+                "test_label_formatter_offset_threshold",
+                "test_label_small_numbers_no_offset",
+                "test_legend_with_large_range_integration"
+            ],
+            "missing": []
+        }
+    },
+    "matplotlib__matplotlib-23299": {
+        "n_resolved_tests": 6,
+        "n_unresolved_tests": 0,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_get_backend_preserves_figures_in_rc_context",
+                "test_get_backend_preserves_multiple_figures_in_rc_context",
+                "test_get_backend_with_figure_before_rc_context",
+                "test_get_backend_with_ion_and_rc_context",
+                "test_get_backend_nested_rc_context",
+                "test_close_figure_created_in_rc_context"
+            ],
+            "unresolved": [],
+            "missing": []
+        }
+    },
+    "django__django-16145": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 6,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [],
+            "unresolved": [
+                "test_runserver_addr_zero_shortcut",
+                "test_runserver_addr_zero_with_port",
+                "test_runserver_addr_zero_default_port",
+                "test_runserver_addr_zero_ipv6",
+                "test_runserver_explicit_addr_unchanged",
+                "test_runserver_localhost_unchanged"
+            ],
+            "missing": []
+        }
+    },
+    "pytest-dev__pytest-7490": {
+        "n_resolved_tests": 5,
+        "n_unresolved_tests": 2,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_dynamic_xfail_with_add_marker",
+                "test_dynamic_xfail_with_add_marker_strict",
+                "test_dynamic_xfail_with_add_marker_in_test_body",
+                "test_dynamic_xfail_with_add_marker_raises",
+                "test_dynamic_xfail_with_add_marker_wrong_exception"
+            ],
+            "unresolved": [
+                "test_dynamic_xfail_with_add_marker_passing",
+                "test_dynamic_xfail_with_add_marker_run_false"
+            ],
+            "missing": []
+        }
+    },
+    "sympy__sympy-23950": {
+        "n_resolved_tests": 0,
+        "n_unresolved_tests": 1,
+        "n_missing_tests": 1,
+        "details": {
+            "resolved": [],
+            "unresolved": [
+                "test_as_set_with_reals"
+            ],
+            "missing": [
+                "test_piecewise_with_contains"
+            ]
+        }
+    },
+    "pallets__flask-5014": {
+        "n_resolved_tests": 3,
+        "n_unresolved_tests": 1,
+        "n_missing_tests": 0,
+        "details": {
+            "resolved": [
+                "test_empty_name_raises_error",
+                "test_valid_blueprint_names",
+                "test_empty_name_blueprint_registration"
+            ],
+            "unresolved": [
+                "test_empty_name_with_whitespace_raises_error"
+            ],
+            "missing": []
+        }
+    }
+}
